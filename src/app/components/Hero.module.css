@@ -1,0 +1,10 @@
+.backgroundImage {
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    
+}
+
+.pradeepImage {
+    background-size: cover;
+    background-position: top;
+    background-image: url(../assets/svg/pradeep.png);
+}
