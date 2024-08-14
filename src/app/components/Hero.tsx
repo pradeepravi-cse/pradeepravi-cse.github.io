@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Hero.module.css";
-import Logo from "@/app/assets/svg/Logo.svg";
-import BGImage from "@/app/assets/svg/pradeep.png";
+import Logo from "../assets/svg/logo.svg";
+
 const Hero = () => {
   return (
     <div className="h-screen w-screen bg-boston-blue-50 flex">
@@ -28,13 +28,25 @@ const Hero = () => {
       <div
         className={`hidden md:block w-3/4 bg-cover bg-right relative bg-boston-blue-950 ${styles.backgroundImage}`}
       >
-    
-        <div className={`${styles.pradeepImage} w-full h-full flex justify-center bg-boston-blue-950 bg-blend-soft-light`}>
-        <ul className="flex gap-20 mt-[48px] text-white mx-auto text-xl">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#" className="bg-white text-boston-blue-950 py-2 px-6 rounded-full">Contact Me</a></li>
-            </ul>
+        <div
+          className={`${styles.pradeepImage} w-full h-full flex justify-center bg-boston-blue-950 bg-blend-soft-light`}
+        >
+          <ul className="flex gap-20 mt-[48px] text-white mx-auto text-xl">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Skills</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="bg-white text-boston-blue-950 py-2 px-6 rounded-full"
+              >
+                Contact Me
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
