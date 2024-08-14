@@ -1,6 +1,9 @@
 import Image from "next/image";
 import styles from "./Hero.module.css";
 import Logo from "../assets/svg/logo.svg";
+import Email from "../assets/svg/email.svg";
+import GitHub from "../assets/svg/github.svg";
+import Linkedin from "../assets/svg/linkedin.svg";
 
 const Hero = () => {
   return (
@@ -18,9 +21,15 @@ const Hero = () => {
             Associate Solution Designer / Developer
           </h3>
           <div className="flex space-x-4 mt-8">
-            <a href="#" className="text-gray-500 hover:text-gray-900"></a>
-            <a href="#" className="text-gray-500 hover:text-gray-900"></a>
-            <a href="#" className="text-gray-500 hover:text-gray-900"></a>
+            <a href="mailto:pradeepravi.cse@gmail.com"  className="text-gray-500 hover:text-gray-900">
+              <Image src={Email} height={40} width={40} alt="email"/>
+            </a>
+            <a href="https://github.com/pradeepravi-cse" target="_blank"  className="text-gray-500 hover:text-gray-900">
+            <Image src={GitHub} height={40} width={40} alt="email"/>
+            </a>
+            <a href="https://www.linkedin.com/in/pradeepkumarcse/" target="_blank"  className="text-gray-500 hover:text-gray-900">
+            <Image src={Linkedin} height={40} width={40} alt="email"/>
+            </a>
           </div>
         </div>
       </div>
@@ -31,19 +40,19 @@ const Hero = () => {
         <div
           className={`${styles.pradeepImage} w-full h-full flex justify-center bg-boston-blue-950 bg-blend-soft-light`}
         >
-          <ul className="flex gap-20 mt-[48px] text-white mx-auto text-xl">
-            <li>
+          <ul className="flex gap-20 mt-[48px] text-white ml-auto mr-40 text-lg">
+            {/* <li>
               <a href="#">About</a>
             </li>
             <li>
               <a href="#">Skills</a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="#"
-                className="bg-white text-boston-blue-950 py-2 px-6 rounded-full"
+                href="mailto:pradeepravi.cse@gmail.com"
+                className="bg-white text-boston-blue-950 py-2 px-6 rounded-full font-bold text-sm"
               >
-                Contact Me
+                CONTACT ME
               </a>
             </li>
           </ul>
