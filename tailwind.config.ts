@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         "boston-blue": {
           50: "#f2f7f9",
+          100: "#ddebf0",
           500: "#427998",
           800: "#314659",
           900: "#2C3D4D",

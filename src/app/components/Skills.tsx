@@ -14,6 +14,22 @@ import Typescript from "@/app/assets/svg/typescript.svg";
 import AzureDevops from "@/app/assets/svg/azuredevops.svg";
 import Keycloak from "@/app/assets/svg/keycloak.svg";
 import SonarQube from "@/app/assets/svg/sonarqube.svg";
+import Figma from "@/app/assets/svg/figma.svg";
+import MongoDB from "@/app/assets/svg/mongodb.svg";
+import Oidc from "@/app/assets/svg/oidc.svg";
+import Jest from "@/app/assets/svg/jest.svg";
+import Jira from "@/app/assets/svg/jira.svg";
+import Taiga from "@/app/assets/svg/taiga.svg";
+import Storybook from "@/app/assets/svg/storybook.svg";
+import Firebase from "@/app/assets/svg/firebase.svg";
+import Rtl from "@/app/assets/svg/rtl.png";
+import ElasticSearch from "@/app/assets/svg/elasticsearch.svg";
+import Beats from "@/app/assets/svg/beats.svg";
+import Kibana from "@/app/assets/svg/kibana.svg";
+import Prometheus from "@/app/assets/svg/prometheus.svg";
+import Grafana from "@/app/assets/svg/grafana.svg";
+import SendGrid from "@/app/assets/svg/sendgrid.svg";
+import WebPack from "@/app/assets/svg/webpack.svg";
 
 import Image from "next/image";
 
@@ -67,8 +83,8 @@ const top: { [key in string]: any }[] = [
     image: Typescript,
   },
   {
-    title: "Azure DevOps",
-    image: AzureDevops,
+    title: "Firebase",
+    image: Firebase,
   },
   {
     title: "Keycloak",
@@ -77,6 +93,70 @@ const top: { [key in string]: any }[] = [
   {
     title: "SonarQube",
     image: SonarQube,
+  },
+  {
+    title: "Azure DevOps",
+    image: AzureDevops,
+  },
+  {
+    title: "Jira",
+    image: Jira,
+  },
+  {
+    title: "Taiga",
+    image: Taiga,
+  },
+  {
+    title: "MongoDB",
+    image: MongoDB,
+  },
+  {
+    title: "Elasticsearch",
+    image: ElasticSearch,
+  },
+  {
+    title: "Beats",
+    image: Beats,
+  },
+  {
+    title: "Kibana",
+    image: Kibana,
+  },
+  {
+    title: "Prometheus",
+    image: Prometheus,
+  },
+  {
+    title: "Grafana",
+    image: Grafana,
+  },
+  {
+    title: "SendGrid",
+    image: SendGrid,
+  },
+  {
+    title: "Open Id Connect",
+    image: Oidc,
+  },
+  {
+    title: "Jest",
+    image: Jest,
+  },
+  {
+    title: "React Testing Library",
+    image: Rtl,
+  },
+  {
+    title: "Webpack",
+    image: WebPack,
+  },
+  {
+    title: "StoryBook",
+    image: Storybook,
+  },
+  {
+    title: "Figma",
+    image: Figma,
   },
 ];
 
@@ -112,8 +192,8 @@ const Skills = () => {
           ))}
         </div>
         <PageBreak/>
-        <h2 className="text-center font-bold text-xl  py-2 px-8 w-[300px] uppercase my-[40px]">
-          Active Skills
+        <h2 className="text-center font-bold text-xl  py-2 px-8 w-[450px] uppercase my-[40px]">
+         Tools &amp; Technologies
         </h2>
         <div className="container md:max-w-[80%] grid grid-cols-2 gap-20 md:grid-cols-6 justify-between">
           {top.map((skill) => (
