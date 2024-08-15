@@ -18,7 +18,7 @@ const Hero = () => {
             <a
               href="/resume-2024.pdf"
               target="_blank"
-              className="bg-transparent border-2 border-boston-blue-950 text-boston-blue-950 md:border-white md:text-white  py-2 px-6 rounded-full font-bold text-sm flex gap-2 uppercase"
+              className="bg-transparent border-2 border-boston-blue-950 text-boston-blue-950 md:border-white md:text-white  py-2 px-6 rounded-full font-bold text-sm flex gap-2 uppercase items-center"
             >
              <FaDownload/>
               Resume
