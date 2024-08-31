@@ -1,6 +1,7 @@
 import Hero from "@/app/components/Hero";
 import AboutMe from "@/app/components/About";
-import Skills from "./components/Skills";
+// import Skills from "./components/Skills";
+import Skills from "./components/Skills-new";
 
 export default function Home() {
   return (
