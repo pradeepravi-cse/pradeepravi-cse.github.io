@@ -45,13 +45,13 @@ const slugs = [
 
 const Skills = () => {
   return (
-    <div className=" w-full pt-40 px-8 pb-40">
+    <div className=" h-fit md:h-screen w-full pt-40 px-8 pb-40">
       <div className="container flex justify-center mx-auto flex-col items-center">
         <h1 className="text-center font-bold text-2xl border-4 border-boston-blue-950 py-2 px-8 w-[300px] uppercase">
           Skills
         </h1>
 
-        <div className=" h-full ">
+        <div className="h-full">
           <IconCloud iconSlugs={slugs} />
         </div>
       </div>
