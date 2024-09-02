@@ -144,7 +144,7 @@ export function Experience() {
       </div>
 
       <AnimatedBeam
-        duration={7}
+        duration={4}
         containerRef={containerRef}
         fromRef={div1Ref}
         toRef={div5Ref}
